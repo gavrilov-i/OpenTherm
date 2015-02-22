@@ -1,0 +1,39 @@
+#######################################
+# Syntax Coloring Map For OneWire
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+OpenTherm	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+init	KEYWORD2
+update KEYWORD2
+communicate KEYWORD2
+complete KEYWORD2
+extIntHandler KEYWORD2
+timer2CompAHandler KEYWORD2
+timer2CompBHandler KEYWORD2
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+OT_STATUS_FAULT LITERAL1
+OT_STATUS_CH LITERAL1
+OT_STATUS_DHW LITERAL1
+OT_FAULT_SERVICE LITERAL1
+OT_FAULT_LOW_WATER LITERAL1
+OT_FAULT_GAS LITERAL1
+OT_FAULT_AIR_PRESSURE LITERAL1
+OT_FAULT_WATER_OV_TEMP LITERAL1
