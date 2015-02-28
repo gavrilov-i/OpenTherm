@@ -11,5 +11,7 @@ uint8_t type,id;
 uint16_t data;
 
 communicate(1,56,10240); //set DHW setpoint to 40.0 deg
+
 delay(1000);
+
 complete(&type,&id,&data); // if accepted type=5,id=56, data=10240;
